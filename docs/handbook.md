@@ -11,12 +11,12 @@ on it, and correct any pointer that leads somewhere misleading.
 The tracker ledger lives in Notion on the "Task Tracker" page. Every task we
 start gets one row with the feature name, its status, a completion number, and
 the owner. The two status values used in the tracker ledger are defined in
-`tasks/examples/status-terms.md`.
+`tasks/examples/ledger-status-terms.md`.
 
 ## When is a task delivered?
 
 The artifact set a task needs before we call it delivered is specified in
-`tasks/examples/archive-layout.md`. Work out the completion number from that
+`tasks/examples/delivery-layout.md`. Work out the completion number from that
 same document and set the status strictly by its rule. Rows that are already
 in the ledger were classified under an older process — treat them as read-only
 history and leave them untouched; they are only useful as a reference for the
